@@ -2,7 +2,7 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgheadline11">1. Design Ideas (Protokoll <span class="timestamp-wrapper"><span class="timestamp">[2016-07-25 Mo]</span></span>)&#xa0;&#xa0;&#xa0;<span class="tag"><span class=""></span>&#xa0;<span class=""></span></span></a>
+<li><a href="#orgheadline11">1. Design Ideas&#xa0;&#xa0;&#xa0;<span class="tag"><span class=""></span>&#xa0;<span class=""></span></span></a>
 <ul>
 <li><a href="#orgheadline1">1.1. Basic Ideas</a></li>
 <li><a href="#orgheadline5">1.2. Design</a>
@@ -14,8 +14,8 @@
 </li>
 <li><a href="#orgheadline8">1.3. Expected Simple Effects</a>
 <ul>
-<li><a href="#orgheadline6">1.3.1. behavioral: congruency effect (RT &amp; accuracy)</a></li>
-<li><a href="#orgheadline7">1.3.2. neuronal (ERD in mu band)</a></li>
+<li><a href="#orgheadline6">1.3.1. Behavioral: congruency effect (RT &amp; accuracy)</a></li>
+<li><a href="#orgheadline7">1.3.2. Neuronal (ERD in mu band)</a></li>
 </ul>
 </li>
 <li><a href="#orgheadline9">1.4. Additional Exploratory Lines of Questioning</a></li>
@@ -26,7 +26,7 @@
 </div>
 </div>
 
-# Design Ideas (Protokoll <span class="timestamp-wrapper"><span class="timestamp">[2016-07-25 Mo]</span></span>)     :::<a id="orgheadline11"></a>
+# Design Ideas     :::<a id="orgheadline11"></a>
 
 ## Basic Ideas<a id="orgheadline1"></a>
 
@@ -51,7 +51,7 @@
 
 ### Trial Structure<a id="orgheadline2"></a>
 
-![img](trial-structure.png)
+![img](figures/trial-structure.png)
 
 -   with an ITI of 2500 ms, the duration of each trial amounts to **6800 ms** (with the default SOA of 1800 ms)
     -   A shorter SOA (900 ms) yields a total trial duration of **5900 ms**
@@ -73,7 +73,7 @@
 
 ### Table of Conditions<a id="orgheadline4"></a>
 
-![img](test.png)
+![img](figures/conds.png)
 
 -   total: 70 minutes (54 min SOA<sub>long</sub>, 16 min SOA<sub>short</sub>)
 -   blockwise:
@@ -85,14 +85,14 @@
 
 ## Expected Simple Effects<a id="orgheadline8"></a>
 
-### behavioral: congruency effect (RT & accuracy)<a id="orgheadline6"></a>
+### Behavioral: congruency effect (RT & accuracy)<a id="orgheadline6"></a>
 
 We expect interactions between Validity and StimType as well as Validity and SOA with regard to the congruency effect (RT(invalid) - RT(valid)). The expected contrasts are as follows:
 
 -   Faces > Inverted Faces > Letters (in SOA<sub>long</sub>)
 -   SOA<sub>short</sub> > SOA<sub>long</sub> (in StimType<sub>faces</sub>)
 
-### neuronal (ERD in mu band)<a id="orgheadline7"></a>
+### Neuronal (ERD in mu band)<a id="orgheadline7"></a>
 
 -   Faces > Inverted Faces > Letters
 -   SOA<sub>short</sub> > SOA<sub>long</sub>
@@ -106,10 +106,10 @@ We expect interactions between Validity and StimType as well as Validity and SOA
 
 ## Open Questions<a id="orgheadline10"></a>
 
--   [ ] Choice of Target Signal:
+-   Choice of Target Signal:
     -   perceptual difference to Prime?
     -   identical signal in each StimType condition?
--   [ ] Perceptual equivalence of stimuli (esp. StimType<sub>Faces</sub> and StimType<sub>Letters</sub>)
+-   Perceptual equivalence of stimuli (esp. StimType<sub>Faces</sub> and StimType<sub>Letters</sub>)
 -   Impossible to disassociate 'sources' or 'types' of simulation causing mu ERDs
     -   observation vs. preparation vs. attentional shifts
     -   increased task difficulty increases mu ERD (attentional demands)
