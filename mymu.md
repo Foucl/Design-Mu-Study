@@ -51,8 +51,6 @@
 
 ### Trial Structure<a id="orgheadline2"></a>
 
-![](figures/trial-structure.png)
-
 -   with an ITI of 2500 ms, the duration of each trial amounts to **6800 ms** (with the default SOA of 1800 ms)
     -   A shorter SOA (900 ms) yields a total trial duration of **5900 ms**
 
