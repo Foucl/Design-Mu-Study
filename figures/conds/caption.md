@@ -1,1 +1,1 @@
-Replace this text with your caption
+Number of trials in each condition
