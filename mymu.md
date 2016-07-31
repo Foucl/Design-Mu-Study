@@ -2,7 +2,7 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgheadline11">1. Design Ideas&#xa0;&#xa0;&#xa0;<span class="tag"><span class=""></span>&#xa0;<span class=""></span></span></a>
+<li><a href="#orgheadline11">1. Design Ideas   <span class="tag"><span class=""></span> <span class=""></span></span></a>
 <ul>
 <li><a href="#orgheadline1">1.1. Basic Ideas</a></li>
 <li><a href="#orgheadline5">1.2. Design</a>
@@ -14,7 +14,7 @@
 </li>
 <li><a href="#orgheadline8">1.3. Expected Simple Effects</a>
 <ul>
-<li><a href="#orgheadline6">1.3.1. Behavioral: congruency effect (RT &amp; accuracy)</a></li>
+<li><a href="#orgheadline6">1.3.1. Behavioral: congruency effect (RT & accuracy)</a></li>
 <li><a href="#orgheadline7">1.3.2. Neuronal (ERD in mu band)</a></li>
 </ul>
 </li>
@@ -35,7 +35,7 @@
     -   action observation
     -   action preparation
     -   action execution
--   Simulation 'entrenches' these processes, presumably making it more difficult to &#x2026;
+-   Simulation 'entrenches' these processes, presumably making it more difficult to …
     -   inhibit them,
     -   switch (attention) to other actions / stimuli or prepare for them
 -   We want to manipulate the 'simulation characteristics' of the stimuli to investigate these assumptions
@@ -51,7 +51,7 @@
 
 ### Trial Structure<a id="orgheadline2"></a>
 
-![img](figures/trial-structure.png)
+![](figures/trial-structure.png)
 
 -   with an ITI of 2500 ms, the duration of each trial amounts to **6800 ms** (with the default SOA of 1800 ms)
     -   A shorter SOA (900 ms) yields a total trial duration of **5900 ms**
@@ -116,4 +116,4 @@ We expect interactions between Validity and StimType as well as Validity and SOA
 -   effect of StimType due to different task demands? (reading/symbolic mapping in Letters condition, coding of emotional facial expression in Faces condition; inverted faces might need to be rotated mentally)
 -   strategy for identifying mu components
 -   strategy for quantifying strength of mu ERD
--   &#x2026;
+-   …
