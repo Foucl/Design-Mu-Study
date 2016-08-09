@@ -2,33 +2,39 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgheadline11">1. Design Ideas&#xa0;&#xa0;&#xa0;<span class="tag"><span class=""></span>&#xa0;<span class=""></span></span></a>
+<li><a href="#orgheadline12">1. Design Study</a>
 <ul>
-<li><a href="#orgheadline1">1.1. Basic Ideas</a></li>
-<li><a href="#orgheadline5">1.2. Design</a>
+<li><a href="#orgheadline11">1.1. Design Ideas&#xa0;&#xa0;&#xa0;<span class="tag"><span class=""></span>&#xa0;<span class=""></span></span></a>
 <ul>
-<li><a href="#orgheadline2">1.2.1. Trial Structure</a></li>
-<li><a href="#orgheadline3">1.2.2. Factors</a></li>
-<li><a href="#orgheadline4">1.2.3. Table of Conditions</a></li>
+<li><a href="#orgheadline1">1.1.1. Basic Ideas</a></li>
+<li><a href="#orgheadline5">1.1.2. Design</a>
+<ul>
+<li><a href="#orgheadline2">1.1.2.1. Trial Structure</a></li>
+<li><a href="#orgheadline3">1.1.2.2. Factors</a></li>
+<li><a href="#orgheadline4">1.1.2.3. Table of Conditions</a></li>
 </ul>
 </li>
-<li><a href="#orgheadline8">1.3. Expected Simple Effects</a>
+<li><a href="#orgheadline8">1.1.3. Expected Simple Effects</a>
 <ul>
-<li><a href="#orgheadline6">1.3.1. Behavioral: congruency effect (RT &amp; accuracy)</a></li>
-<li><a href="#orgheadline7">1.3.2. Neuronal (ERD in mu band)</a></li>
+<li><a href="#orgheadline6">1.1.3.1. Behavioral: congruency effect (RT &amp; accuracy)</a></li>
+<li><a href="#orgheadline7">1.1.3.2. Neuronal (ERD in mu band)</a></li>
 </ul>
 </li>
-<li><a href="#orgheadline9">1.4. Additional Exploratory Lines of Questioning</a></li>
-<li><a href="#orgheadline10">1.5. Open Questions</a></li>
+<li><a href="#orgheadline9">1.1.4. Additional Exploratory Lines of Questioning</a></li>
+<li><a href="#orgheadline10">1.1.5. Open Questions</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-# Design Ideas     :::<a id="orgheadline11"></a>
+# Design Study<a id="orgheadline12"></a>
 
-## Basic Ideas<a id="orgheadline1"></a>
+## Design Ideas     :::<a id="orgheadline11"></a>
+
+### Basic Ideas<a id="orgheadline1"></a>
 
 -   Mu and simulation are related
 -   A pronounced ERD in mu signals 'simulative' aspects of one of at least three processes:
@@ -45,18 +51,18 @@
 
 -   It is likely that ERD in Alpha (even in central regions) will be influenced by spatial attention
 
-## Design<a id="orgheadline5"></a>
+### Design<a id="orgheadline5"></a>
 
 -   Response Priming Paradigm: Prime -> <blank> -> Target (valid or invalid)
 
-### Trial Structure<a id="orgheadline2"></a>
+#### Trial Structure<a id="orgheadline2"></a>
 
 ![img](figures/trial-structure.png)
 
 -   with an ITI of 2500 ms, the duration of each trial amounts to **6800 ms** (with the default SOA of 1800 ms)
     -   A shorter SOA (900 ms) yields a total trial duration of **5900 ms**
 
-### Factors<a id="orgheadline3"></a>
+#### Factors<a id="orgheadline3"></a>
 
 -   Manipulated factors (within subject)
     -   **Expression:** Two target emotions of different valence (e.g. *Happy* vs. *Angry*) [\*80 Trials / Expression\*]
@@ -71,40 +77,40 @@
     -   this design will **not** be balanced and thus cannot be described as a 2<sup>3-1</sup>x3 fractional factorial design
     -   all main effects will be confounded by interaction effects involving SOA
 
-### Table of Conditions<a id="orgheadline4"></a>
+#### Table of Conditions<a id="orgheadline4"></a>
 
 ![img](figures/conds.png)
 
 -   total: 70 minutes (54 min SOA<sub>long</sub>, 16 min SOA<sub>short</sub>)
--   blockwise:
+-   blockwise:  
     -   Faces: 34 minutes
     -   Inverted Faces: 18 minutes
     -   Letters: 18 Minutes
 -   total length without Inverted Faces: 52 minutes
 -   total length without inverted Faces, with full factorial design: 68 minutes
 
-## Expected Simple Effects<a id="orgheadline8"></a>
+### Expected Simple Effects<a id="orgheadline8"></a>
 
-### Behavioral: congruency effect (RT & accuracy)<a id="orgheadline6"></a>
+#### Behavioral: congruency effect (RT & accuracy)<a id="orgheadline6"></a>
 
 We expect interactions between Validity and StimType as well as Validity and SOA with regard to the congruency effect (RT(invalid) - RT(valid)). The expected contrasts are as follows:
 
 -   Faces > Inverted Faces > Letters (in SOA<sub>long</sub>)
 -   SOA<sub>short</sub> > SOA<sub>long</sub> (in StimType<sub>faces</sub>)
 
-### Neuronal (ERD in mu band)<a id="orgheadline7"></a>
+#### Neuronal (ERD in mu band)<a id="orgheadline7"></a>
 
 -   Faces > Inverted Faces > Letters
 -   SOA<sub>short</sub> > SOA<sub>long</sub>
 
-## Additional Exploratory Lines of Questioning<a id="orgheadline9"></a>
+### Additional Exploratory Lines of Questioning<a id="orgheadline9"></a>
 
 -   Interactions between SOA and Expression
 -   Interindividual Differences in mu ERD (& rebound)?
 -   pre-Stimulus mu ERD as predictor of speed/accuracy on single-trial-level?
 -   Chronometry of mu ERD (and its relation to expression/valence)
 
-## Open Questions<a id="orgheadline10"></a>
+### Open Questions<a id="orgheadline10"></a>
 
 -   Choice of Target Signal:
     -   perceptual difference to Prime?
